@@ -27,7 +27,7 @@
 
 - Личный сайт — [stomvrn.github.io](https://stomvrn.github.io)
 - Email — stom.vrn@gmail.com
-- Telegram — [@позже](https://t.me/_позже)
+- Telegram — @ivan_kholin_digital (https://t.me/ivan_kholin_digital)
 
 ---
 
