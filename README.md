@@ -28,7 +28,7 @@
 - Личный сайт — [stomvrn.github.io](https://stomvrn.github.io)
 - Email — stom.vrn@gmail.com
 - Telegram — @ivan_kholin_digital (https://t.me/ivan_kholin_digital)
-
+- VK —  https://vk.ru/holinivan
 ---
 
 *Не программист в классическом смысле. Но с LLM строю: спроектировал
