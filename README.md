@@ -18,7 +18,7 @@
 
 ### Утилиты
 
-🔧 **vanxo-tools** — 14 офлайн-утилит в одном HTML: счётчик, JSON, хеш, пароли, цвет, diff.
+🔧 **vanxo-tools** — 14 офлайн-утилит в одном HTML: счётчик, JSON, хеш, пароли, цвет, diff.                                                                 https://stomvrn.github.io/vanxo-tools/
 
 🌐 **Портфолио** — [stomvrn.github.io](https://stomvrn.github.io/)
 
