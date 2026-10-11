@@ -1,28 +1,36 @@
 # Иван Холин
 
-**Врач · методолог · медицинские LLM**
+Врач · методолог. Собираю автономные медицинские инструменты: офлайн, без утечек данных.
 
-24 года клинической практики. Формализую медицинские знания в работающие инструменты: автономные, офлайн, без утечек данных.
-
----
+24 года клинической практики. Формализую медицинские знания в работающие инструменты — один HTML-файл, ноль зависимостей, ноль телеметрии.
 
 ## Проекты
 
-🩺 **[Medical Kit](https://github.com/stomvrn/medical-kit)** — Единый офлайн-инструмент для врача. 9 клинических шкал (NIHSS, mRS, VAS, ODI, NDI, Tampa, PCS, HADS, PSQI) с автоподсчётом, 102 навыка коммуникации, утилиты.
-**[→ Демо](https://stomvrn.github.io/medical-kit/)**
+### Для всех
 
-💬 **[Ассистент клинической коммуникации](https://github.com/stomvrn/clinical-communication-assistant)** — Интерактивный чек-лист навыков общения с пациентом. 102 навыка, 15 этапов приёма.
-**[→ Демо](https://stomvrn.github.io/clinical-communication-assistant/)**
+🚨 **Emergency Help** — Первая помощь для не медиков. 14 алгоритмов, работает офлайн, без регистрации. [Открыть →](https://stomvrn.github.io/emergency-help/)
 
-🔧 **[vanxo-tools](https://github.com/stomvrn/vanxo-tools)** — 14 офлайн-утилит в одном HTML-файле: счётчик, JSON, хеш, пароли, цвет, diff.
+### Для практикующих врачей
 
-🌐 **[stomvrn.github.io](https://stomvrn.github.io/)** — Портфолио: методология, инструменты, контакты.
+🩺 **Medical Kit** — 9 клинических шкал (NIHSS, mRS, VAS, ODI, NDI, Tampa, PCS, HADS, PSQI) с автоподсчётом, 102 навыка коммуникации, утилиты. [Открыть →](https://stomvrn.github.io/medical-kit/)
 
----
+💬 **Ассистент клинической коммуникации** — Интерактивный чек-лист навыков общения с пациентом. 102 навыка, 15 этапов приёма. [Открыть →](https://stomvrn.github.io/clinical-communication-assistant/)
+
+### Утилиты
+
+🔧 **vanxo-tools** — 14 офлайн-утилит в одном HTML: счётчик, JSON, хеш, пароли, цвет, diff.
+
+🌐 **Портфолио** — [stomvrn.github.io](https://stomvrn.github.io/)
+
+## Принципы
+
+- **Single-file** — один HTML, всё внутри
+- **Offline-first** — работает без интернета
+- **Zero dependencies** — ни CDN, ни аналитики
+- **Local-only** — данные не покидают устройство
+- **CC0 / CC BY 4.0** — открытые лицензии
 
 ## Контакты
 
-Основной канал — Telegram. Отвечаю лично.
-
-📫 [@ivan_kholin_digital](https://t.me/ivan_kholin_digital)
+📫 Telegram: [@ivan_kholin_digital](https://t.me/ivan_kholin_digital)
 📍 Острогожск, Воронежская область
