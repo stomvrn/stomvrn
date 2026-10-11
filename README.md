@@ -1,36 +1,17 @@
-# Иван Холин
-
-Врач · методолог. Собираю автономные медицинские инструменты: офлайн, без утечек данных.
-
-24 года клинической практики. Формализую медицинские знания в работающие инструменты — один HTML-файл, ноль зависимостей, ноль телеметрии.
-
 ## Проекты
 
 ### Для всех
 
-🚨 **Emergency Help** — Первая помощь для не медиков. 14 алгоритмов, работает офлайн, без регистрации. [Открыть →](https://stomvrn.github.io/emergency-help/)
+🚨 **[Emergency Help](https://github.com/stomvrn/emergency-help)** — Первая помощь для не медиков. 14 алгоритмов. Офлайн, CC0. [Открыть →](https://stomvrn.github.io/emergency-help/)
+
+📖 **[Шпаргалка · Нейросети](https://github.com/stomvrn/stomvrn-llm-cheatsheet)** — Какую нейросеть выбрать и как проверить честность модели. 24 плитки. [Открыть →](https://stomvrn.github.io/stomvrn-llm-cheatsheet/)
 
 ### Для практикующих врачей
 
-🩺 **Medical Kit** — 9 клинических шкал (NIHSS, mRS, VAS, ODI, NDI, Tampa, PCS, HADS, PSQI) с автоподсчётом, 102 навыка коммуникации, утилиты. [Открыть →](https://stomvrn.github.io/medical-kit/)
+🩺 **[Medical Kit](https://github.com/stomvrn/medical-kit)** — 9 клинических шкал, 102 навыка коммуникации.
 
-💬 **Ассистент клинической коммуникации** — Интерактивный чек-лист навыков общения с пациентом. 102 навыка, 15 этапов приёма. [Открыть →](https://stomvrn.github.io/clinical-communication-assistant/)
+💬 **[Ассистент клинической коммуникации](https://github.com/stomvrn/clinical-communication-assistant)** — Чек-лист навыков общения с пациентом.
 
 ### Утилиты
 
-🔧 **vanxo-tools** — 14 офлайн-утилит в одном HTML: счётчик, JSON, хеш, пароли, цвет, diff.                                                                 https://stomvrn.github.io/vanxo-tools/
-
-🌐 **Портфолио** — [stomvrn.github.io](https://stomvrn.github.io/)
-
-## Принципы
-
-- **Single-file** — один HTML, всё внутри
-- **Offline-first** — работает без интернета
-- **Zero dependencies** — ни CDN, ни аналитики
-- **Local-only** — данные не покидают устройство
-- **CC0 / CC BY 4.0** — открытые лицензии
-
-## Контакты
-
-📫 Telegram: [@ivan_kholin_digital](https://t.me/ivan_kholin_digital)
-📍 Острогожск, Воронежская область
+🔧 **[vanxo-tools](https://github.com/stomvrn/vanxo-tools)** — 14 офлайн-утилит в одном HTML.
