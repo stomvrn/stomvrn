@@ -31,7 +31,7 @@
 
 **Аналитики.** Не знаю, кто открыл файл, откуда и сколько раз. И не хочу знать.
 
-**Сети.** Не только как функции, но и как возможности. `connect-src 'none'` — это запрет на любую попытку выйти наружу.
+**Сети.** Не только как функции, но и как возможности. Запрет на любую попытку выйти наружу.
 
 **Зависимостей.** Ни CDN, ни шрифтов с чужих серверов, ни библиотек. Всё, что нужно, уже внутри.
 
@@ -47,19 +47,19 @@
 
 | # | Артефакт | Что | Лицензия | Исходник |
 |:-:|:---------|:----|:---------|:---------|
-| `001` | **[Emergency Help](https://stomvrn.github.io/emergency-help/)** | Первая помощь для не медиков. 14 алгоритмов. Крупный шрифт. Офлайн. | `CC0` | [repo](https://github.com/stomvrn/emergency-help) |
-| `002` | **[LLM Cheatsheet](https://stomvrn.github.io/stomvrn-llm-cheatsheet/)** | Какую нейросеть выбрать и как проверить честность. 24 плитки. | `CC BY 4.0` | [repo](https://github.com/stomvrn/stomvrn-llm-cheatsheet) |
-| `003` | **[Medical Kit](https://stomvrn.github.io/medical-kit/)** | 9 клинических шкал с автоподсчётом. 102 навыка коммуникации. | `CC BY 4.0` | [repo](https://github.com/stomvrn/medical-kit) |
-| `004` | **[Clinical Communication](https://stomvrn.github.io/clinical-communication-assistant/)** | Чек-лист навыков общения с пациентом. 15 этапов приёма. | `CC BY 4.0` | [repo](https://github.com/stomvrn/clinical-communication-assistant) |
-| `005` | **[vanxo-tools](https://stomvrn.github.io/vanxo-tools/)** | 14 утилит в одном файле: JSON, хеш, пароли, цвет, diff. | `CC0` | [repo](https://github.com/stomvrn/vanxo-tools) |
+| 001 | [Emergency Help](https://stomvrn.github.io/emergency-help/) | Первая помощь для не медиков. 14 алгоритмов. Крупный шрифт. Офлайн. | CC0 | [repo](https://github.com/stomvrn/emergency-help) |
+| 002 | [LLM Cheatsheet](https://stomvrn.github.io/stomvrn-llm-cheatsheet/) | Какую нейросеть выбрать и как проверить честность. 24 плитки. | CC BY 4.0 | [repo](https://github.com/stomvrn/stomvrn-llm-cheatsheet) |
+| 003 | [Medical Kit](https://stomvrn.github.io/medical-kit/) | 9 клинических шкал с автоподсчётом. 102 навыка коммуникации. | CC BY 4.0 | [repo](https://github.com/stomvrn/medical-kit) |
+| 004 | [Clinical Communication](https://stomvrn.github.io/clinical-communication-assistant/) | Чек-лист навыков общения с пациентом. 15 этапов приёма. | CC BY 4.0 | [repo](https://github.com/stomvrn/clinical-communication-assistant) |
+| 005 | [vanxo-tools](https://stomvrn.github.io/vanxo-tools/) | 14 утилит в одном файле: JSON, хеш, пароли, цвет, diff. | CC0 | [repo](https://github.com/stomvrn/vanxo-tools) |
 
 ### Приватное
 
 Работает локально. Не публикуется. Показываю объём работы, а не только публичную часть.
+ 
 ◆ СППВР / СтАР          система поддержки врачебных решений
 ◆ Emergency HQ          штаб доставки пользы
 ◆ Methodology Monolith  цех методологий
-
 
 ---
 
@@ -69,14 +69,14 @@
 
 | № | Фаза | Смысл |
 |:-:|:-----|:------|
-| 1 | **Триггер** | Почему это нужно. Какая боль |
-| 2 | **Онтология** | Из чего состоит. Какие объекты и связи |
-| 3 | **Принципы** | Красные линии. Что нельзя нарушать |
-| 4 | **Протоколы** | Как действовать пошагово |
-| 5 | **Метрики** | Как понять, что работает |
-| 6 | **Риски** | Что может сломаться и как реагировать |
-| 7 | **Жизненный цикл** | От рождения до устаревания |
-| 8 | **Обзор** | Когда и как пересматривать |
+| 1 | Триггер | Почему это нужно. Какая боль |
+| 2 | Онтология | Из чего состоит. Какие объекты и связи |
+| 3 | Принципы | Красные линии. Что нельзя нарушать |
+| 4 | Протоколы | Как действовать пошагово |
+| 5 | Метрики | Как понять, что работает |
+| 6 | Риски | Что может сломаться и как реагировать |
+| 7 | Жизненный цикл | От рождения до устаревания |
+| 8 | Обзор | Когда и как пересматривать |
 
 Каркас один. Содержимое — разное. Структура — общая. Так любая методология может быть проверена: если она пропускает фазу — она не работает.
 
@@ -90,7 +90,7 @@
 
 **Zero dependencies.** Скачал — открыл. Между этими двумя действиями не должно быть третьего.
 
-**Strict CSP.** `default-src 'none'`. `connect-src 'none'`. Не «мы не отправляем данные», а «мы не можем их отправить».
+**Strict CSP.** Ничего не загружается извне. Не «мы не отправляем данные», а «мы не можем их отправить».
 
 **Local-only.** Всё, что происходит, происходит на вашем устройстве. Никаких серверов, к которым можно было бы обратиться.
 
@@ -100,20 +100,22 @@
 
 ## С чего начать
 
-Если никогда не видел эти инструменты — начни с **[Emergency Help](https://stomvrn.github.io/emergency-help/)**. Он не требует объяснений и не требует доверия к автору. Просто открой и посмотри, как выглядят 14 алгоритмов первой помощи в одном HTML-файле.
+Если никогда не видел эти инструменты — начни с [Emergency Help](https://stomvrn.github.io/emergency-help/). Он не требует объяснений и не требует доверия к автору. Просто открой и посмотри, как выглядят 14 алгоритмов первой помощи в одном HTML-файле.
 
 Дальше — по интересу:
 
-- Интересна методология → **[LLM Cheatsheet](https://stomvrn.github.io/stomvrn-llm-cheatsheet/)** покажет, как строится структура.
-- Ты врач → **[Medical Kit](https://stomvrn.github.io/medical-kit/)** и **[Clinical Communication](https://stomvrn.github.io/clinical-communication-assistant/)**.
-- Нужны утилиты → **[vanxo-tools](https://stomvrn.github.io/vanxo-tools/)**.
+- Интересна методология → [LLM Cheatsheet](https://stomvrn.github.io/stomvrn-llm-cheatsheet/) покажет, как строится структура.
+- Ты врач → [Medical Kit](https://stomvrn.github.io/medical-kit/) и [Clinical Communication](https://stomvrn.github.io/clinical-communication-assistant/).
+- Нужны утилиты → [vanxo-tools](https://stomvrn.github.io/vanxo-tools/).
 
 ---
 
 ## Контакты
 
 Telegram: [@ivan_kholin_digital](https://t.me/ivan_kholin_digital) — отвечаю лично, обычно в течение дня
+
 Email: [stom.vrn@gmail.com](mailto:stom.vrn@gmail.com)
+
 GitHub: [@stomvrn](https://github.com/stomvrn)
 
 Если нашли ошибку в алгоритме — напишите лично, не в issue. В медицине это критично.
