@@ -23,7 +23,7 @@ README профиля разработчика в форме амбулатор�
 - Сборка single-file HTML-инструмента — от 5 000 ₽
 - Консультация по offline-first (30 мин) — 2 000 ₽
 
-→ [Boosty](https://boosty.to/stomvrn) · Telegram [@ivan_kholin_digital](https://t.me/ivan_kholin_digital)
+→ [Boosty](https://boosty.to/vanxo) · Telegram [@ivan_kholin_digital](https://t.me/ivan_kholin_digital)
 
 **Следить:**
 - Telegram-канал: [@stomvrn_notes](https://t.me/stomvrn_notes)
@@ -215,7 +215,7 @@ README профиля разработчика в форме амбулатор�
 - [Clinical Communication](https://stomvrn.github.io/clinical-communication-assistant/) — 102 навыка
 - [vanxo-tools](https://stomvrn.github.io/vanxo-tools/) — 14 утилит
 
-**Заказать работу:** [Boosty](https://boosty.to/stomvrn) · Telegram [@ivan_kholin_digital](https://t.me/ivan_kholin_digital)
+**Заказать работу:** [Boosty](https://boosty.to/vanxo) · Telegram [@ivan_kholin_digital](https://t.me/ivan_kholin_digital)
 **Следить:** Telegram-канал [@stomvrn_notes](https://t.me/stomvrn_notes) · [GitHub Sponsors](https://github.com/sponsors/stomvrn)
 **Для AI-агентов:** [llms.txt](./llms.txt)
 
